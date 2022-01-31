@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zippy</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <h2 id="head-name">ZIPPY</h2>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#project">PROJECTS</a></li>
+          <li><a href="#pricing">PRICING</a></li>
+          <li><a href="#team">TEAM</a></li>
+          <li><a href="#blog">BLOG</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="home">
+      <div class="img-slider">
+        <div class="img-slides">
+          <img src="./img/img1.jpg" width="100%" height="600px" />
+          <div class="text">
+            <h1>
+              One page promising to <br />
+              fill all you needs!
+            </h1>
+            <p>
+              This is Photoshop's version of Lorem Ipsum, Proin <br />gravida
+              nibh vel velit auctor aliquet
+            </p>
+            <button class="btn">Learn More</button>
+            <button class="btn">Learn More</button>
+          </div>
+        </div>
+        <div class="img-slides">
+          <img src="./img/img2.jpg" width="100%" height="600px" />
+          <div class="text">
+            <h1>
+              One page promising to <br />
+              fill all you needs!
+            </h1>
+            <p>
+              This is Photoshop's version of Lorem Ipsum, Proin <br />gravida
+              nibh vel velit auctor aliquet
+            </p>
+            <button class="btn">Learn More</button>
+            <button class="btn">Learn More</button>
+          </div>
+        </div>
+        <div class="img-slides">
+          <img src="./img/img3.jpg" width="100%" height="600px" />
+          <div class="text">
+            <h1>
+              One page promising to <br />
+              fill all you needs!
+            </h1>
+            <p>
+              This is Photoshop's version of Lorem Ipsum, Proin <br />gravida
+              nibh vel velit auctor aliquet
+            </p>
+            <button class="btn">Learn More</button>
+            <button class="btn">Learn More</button>
+          </div>
+        </div>
+        <div class="img-slides">
+          <img src="./img/img4.jpg" width="100%" height="600px" />
+          <div class="text">
+            <h1>
+              One page promising to <br />
+              fill all you needs!
+            </h1>
+            <p>
+              This is Photoshop's version of Lorem Ipsum, Proin <br />gravida
+              nibh vel velit auctor aliquet
+            </p>
+            <button class="btn">Learn More</button>
+            <button class="btn">Learn More</button>
+          </div>
+        </div>
+
+        <div class="dot-container">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+      </div>
+      <div id="home-info">
+        <h1 style="text-align: center; font-size: 100px">Welcome to Zippy</h1>
+        <div class="info-content">
+          <p style="word-spacing: 50px; font-size: 45px; line-height: 1.8">
+            This is Photoshop's version of <br />
+            Lorem Ipsum, Proin gravida nibh <br />
+            vel velit auctor aliquet.Aenean sol- <br />licitudin,lorem uis
+            bibendum <br />auctor.
+          </p>
+        </div>
+        <div class="info-img">
+          <img src="./img/umb-img.png" alt="" />
+        </div>
+      </div>
+      <br /><br /><br />
+      <div class="home-footer">
+        <div class="section">
+          <div class="img-alrt">
+            <img src="./img/msg-img.png" alt="" />
+          </div>
+
+          <h2>LOREM IPSUM</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+            accusamus ad quaerat minima consequuntur sunt nobis officiis porro
+            laboriosam nam atque, delectus dolorem? Voluptates aliquam dolores
+            earum alias fuga. Adipisci.
+          </p>
+          <button class="btn">LEARN MORE</button>
+        </div>
+        <div class="section">
+          <div class="img-alrt">
+            <img src="./img/msg-img.png" alt="" />
+          </div>
+
+          <h2>DOLOR SIT</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+            accusamus ad quaerat minima consequuntur sunt nobis officiis porro
+            laboriosam nam atque, delectus dolorem? Voluptates aliquam dolores
+            earum alias fuga. Adipisci.
+          </p>
+          <button class="btn">LEARN MORE</button>
+        </div>
+        <div class="section">
+          <div class="img-alrt">
+            <img src="./img/msg-img.png" alt="" />
+          </div>
+
+          <h2>CONSECTETURE</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+            accusamus ad quaerat minima consequuntur sunt nobis officiis porro
+            laboriosam nam atque, delectus dolorem? Voluptates aliquam dolores
+            earum alias fuga. Adipisci.
+          </p>
+          <button class="btn">LEARN MORE</button>
+        </div>
+      </div>
+      <br /><br />
+    </div>
+    <br /><br />
+    <div id="project">
+      <h1 style="text-align: center">Projects</h1>
+      <div class="project-tabs">
+        <div class="project-tab">
+          <img src="./img/img1.jpg" alt="" height="600px" />
+          <h1>PROJECT NAME</h1>
+
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde totam
+            nemo excepturi id saepe eligendi, distinctio qui alias corrupti ut
+            nostrum, suscipit voluptatem.
+          </p>
+          <button class="btn-1">LAUNCH CASE STUDY</button>
+        </div>
+        <div class="project-tab">
+          <img src="./img/img2.jpg" alt="" height="600px" />
+          <h1>PROJECT NAME</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde totam
+            nemo excepturi id saepe eligendi, distinctio qui alias corrupti ut
+            nostrum, suscipit voluptatem.
+          </p>
+          <button class="btn-1">LAUNCH CASE STUDY</button>
+        </div>
+        <div class="project-tab">
+          <img src="./img/img3.jpg" alt="" height="600px" />
+          <h1>PROJECT NAME</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde totam
+            nemo excepturi id saepe eligendi, distinctio qui alias corrupti ut
+            nostrum, suscipit voluptatem.
+          </p>
+          <button class="btn-1">LAUNCH CASE STUDY</button>
+        </div>
+        <div class="project-tab">
+          <img src="./img/img4.jpg" alt="" height="600px" width="476px" />
+          <h1>PROJECT NAME</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde totam
+            nemo excepturi id saepe eligendi, distinctio qui alias corrupti ut
+            nostrum, suscipit voluptatem.
+          </p>
+          <button class="btn-1">LAUNCH CASE STUDY</button>
+        </div>
+      </div>
+    </div>
+    <br /><br /><br />
+    <div id="pricing">
+      <h1 style="text-align: center">Pricing Table</h1>
+      <br /><br />
+      <div class="columns">
+        <div class="column">
+          <h2>STANDARD PLAN</h2>
+
+          <h3 style="color: gray">Free</h3>
+          <h4>2 GB Available</h4>
+          <h4>15 max. contacts</h4>
+          <h4>30 Messages/Month</h4>
+          <h4>Disgusting Ads</h4>
+          <br />
+          <button class="btn-2">BUY</button>
+        </div>
+        <div
+          class="column"
+          style="
+            border-left: 5px solid rgb(207, 198, 198);
+            border-right: 5px solid rgb(207, 198, 198);
+            border-radius: 2px;
+          "
+        >
+          <h2>BUSINESS PLAN</h2>
+
+          <h3 style="color: gray">195/Month</h3>
+          <h4>10 GB Available</h4>
+          <h4>75 max. contacts</h4>
+          <h4>120 Messages/Month</h4>
+          <h4>Ads Free</h4>
+          <br />
+          <button class="btn-2">BUY</button>
+        </div>
+        <div class="column">
+          <h2>PREMIUM PLAN</h2>
+
+          <h3 style="color: gray">145/Month</h3>
+          <h4>100 GB Available</h4>
+          <h4>Unlimited contacts</h4>
+          <h4>Unlimited Messages</h4>
+          <h4>Ads Free</h4>
+          <br />
+          <button class="btn-2">BUY</button>
+        </div>
+      </div>
+      <br /><br /><br /><br /><br /><br /><br /><br />
+    </div>
+    <div class="video-project">
+      <h1 class="video-project-heading">Video Projects</h1>
+      <div
+        class="video-carousel"
+        data-flickity='{ "wrapAround": true, "autoplay":true }'
+      >
+        <div class="carousel-cell">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/JeSfhnhbcBc"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="carousel-cell">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/JeSfhnhbcBc"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="carousel-cell">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/JeSfhnhbcBc"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="carousel-cell">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/JeSfhnhbcBc"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="carousel-cell">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/JeSfhnhbcBc"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="carousel-cell">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/JeSfhnhbcBc"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <div id="team">
+      <br /><br /><br />
+      <h1 style="text-align: center; font-weight: bolder">Zippy Team</h1>
+      <br /><br />
+      <div class="team-container">
+        <div class="team-info">
+          <img class="image" src="./img/duke-img-1.jpg" alt="duke" />
+          <h4>PRAKASH YADAVA</h4>
+          <h3>Web Developer</h3>
+          <div class="social">
+            <a href="https://www.facebook.com/"
+              ><img src="./img/fb-logo.jpg" alt=""
+            /></a>
+            <a href="https://www.facebook.com/"
+              ><img src="./img/fb-logo.jpg" alt=""
+            /></a>
+            <a href="https://www.facebook.com/"
+              ><img src="./img/fb-logo.jpg" alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="team-info">
+          <img class="image" src="./img/duke-img-2.jpg" alt="duke" />
+          <h4>PRAKASH YADAVA</h4>
+          <h3>Web Developer</h3>
+          <div class="social">
+            <a href="https://www.facebook.com/"
+              ><img src="./img/fb-logo.jpg" alt=""
+            /></a>
+            <a href="https://www.facebook.com/"
+              ><img src="./img/fb-logo.jpg" alt=""
+            /></a>
+            <a href="https://www.facebook.com/"
+              ><img src="./img/fb-logo.jpg" alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="team-info">
+          <img class="image" src="./img/duke-img-3.jpg" alt="duke" />
+          <h4>PRAKASH YADAVA</h4>
+          <h3>Web Developer</h3>
+          <div class="social">
+            <a href="https://www.facebook.com/"
+              ><img src="./img/fb-logo.jpg" alt=""
+            /></a>
+            <a href="https://www.facebook.com/"
+              ><img src="./img/fb-logo.jpg" alt=""
+            /></a>
+            <a href="https://www.facebook.com/"
+              ><img src="./img/fb-logo.jpg" alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="team-info">
+          <img class="image" src="./img/duke-img-4.jpeg" alt="duke" />
+          <h4>PRAKASH YADAVA</h4>
+          <h3>Web Developer</h3>
+          <div class="social">
+            <a href="https://www.facebook.com/"
+              ><img src="./img/fb-logo.jpg" alt=""
+            /></a>
+            <a href="https://www.facebook.com/"
+              ><img src="./img/fb-logo.jpg" alt=""
+            /></a>
+            <a href="https://www.facebook.com/"
+              ><img src="./img/fb-logo.jpg" alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="team-info">
+          <img class="image" src="./img/duke-img-5.jpg" alt="duke" />
+          <h4>PRAKASH YADAVA</h4>
+          <h3>Web Developer</h3>
+          <div class="social">
+            <a href="https://www.facebook.com/"
+              ><img src="./img/fb-logo.jpg" alt=""
+            /></a>
+            <a href="https://www.facebook.com/"
+              ><img src="./img/fb-logo.jpg" alt=""
+            /></a>
+            <a href="https://www.facebook.com/"
+              ><img src="./img/fb-logo.jpg" alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="team-info">
+          <img class="image" src="./img/duke-img-6.jpg" alt="duke" />
+          <h4>PRAKASH YADAVA</h4>
+          <h3>Web Developer</h3>
+          <div class="social">
+            <a href="https://www.facebook.com/"
+              ><img src="./img/fb-logo.jpg" alt=""
+            /></a>
+            <a href="https://www.facebook.com/"
+              ><img src="./img/fb-logo.jpg" alt=""
+            /></a>
+            <a href="https://www.facebook.com/"
+              ><img src="./img/fb-logo.jpg" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="img-container">
+      <br><br><br><br>
+      <h1 style="text-align: center;">Life in Zippy</h1>
+      <br><br><br>
+      <div class="img-slide">
+        <img src="./img/img1.jpg" style="width: 100%;height: 500px;" alt="" />
+      </div>
+      <div class="img-slide">
+        <img src="./img/img2.jpg" style="width: 100%;height: 500px;" alt="" />
+      </div>
+      <div class="img-slide">
+        <img src="./img/img3.jpg" style="width: 100%;height: 500px;" alt="" />
+      </div>
+      <div class="img-slide">
+        <img src="./img/img4.jpg" style="width: 100%;height: 500px;" alt="" />
+      </div>
+      <div class="img-slide">
+        <img src="./img/img1.jpg" style="width: 100%;height: 500px;" alt="" />
+      </div>
+      <div class="img-slide">
+        <img src="./img/img2.jpg" style="width: 100%;height: 500px;" alt="" />
+      </div>
+      <br><br>
+      
+      <div class="img-row">
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+        <div class="img-col">
+          <img src="./img/img1.jpg" alt="" class="demo cursor" onclick="colCurrent(1)" style="width: 100%;">
+        </div>
+        <div class="img-col">
+          <img src="./img/img2.jpg" alt="" class="demo cursor" onclick="colCurrent(2)" style="width: 100%;">
+        </div>
+        <div class="img-col">
+          <img src="./img/img3.jpg" alt="" class="demo cursor" onclick="colCurrent(3)" style="width: 100%;">
+        </div>
+        <div class="img-col">
+          <img src="./img/img4.jpg" alt="" class="demo cursor" onclick="colCurrent(4)" style="width: 100%;">
+        </div>
+        <div class="img-col">
+          <img src="./img/img1.jpg" alt="" class="demo cursor" onclick="colCurrent(5)" style="width: 100%;">
+        </div>
+        <div class="img-col">
+          <img src="./img/img2.jpg" alt="" class="demo cursor" onclick="colCurrent(6)" style="width: 100%;">
+        </div>
+      </div>
+      <br><br><br>
+    </div>
+    <div id="blog">
+      <h1>this is blog section</h1>
+    </div>
+    <div id="contact">
+      <h1>this is contact section</h1>
+    </div>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
